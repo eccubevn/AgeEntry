@@ -50,7 +50,7 @@ class EntryTypeExtension extends AbstractTypeExtension
             $maxAge = 20;
             if ($interval->y < $maxAge) {
                 // TODO: add to resource/locale/message.xxx after core code releases.
-                $form['birth']->addError(new FormError("※ 登録するには{$maxAge}歳以上でなければなりません。"));
+                $form['birth']->addError(new FormError("{$maxAge}歳以上入力されていません。"));
             }
         });
     }
