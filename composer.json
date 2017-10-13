@@ -1,0 +1,16 @@
+{
+  "name":"ec-cube/AgeEntry",
+  "description":"This is demo v.1.0.0",
+  "version":"1.0.0",
+  "type":"eccube-plugin",
+  "require":
+  {
+    "ec-cube/plugin-installer":"0.0.1",
+    "ec-cube/BirthdayEntry":"1.0.0"
+  },
+  "extra":
+  {
+    "id":3,
+    "code":"AgeEntry"
+  }
+}

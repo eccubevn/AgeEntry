@@ -1,0 +1,5 @@
+name: AgeEntry
+code: AgeEntry
+version: 1.0.0
+service:
+    - AgeEntryServiceProvider
